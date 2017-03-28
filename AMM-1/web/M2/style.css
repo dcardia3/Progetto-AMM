@@ -1,0 +1,97 @@
+/*
+Creazione: 28/03/2017
+*/
+
+body{
+    background-color: #8899a6;
+    font: 20px/25px "Helvetica Neue", Arial, sans-serif;
+}
+
+h1{
+    margin-top: 5px;
+    color: #ffffff;
+    margin-left: 5px;
+    font: 35px/40px "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    margin-top: 5px;
+    color: #333333;
+    font: 25px/40px "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+    
+ }
+ 
+ a:link{
+     font-size: 20px;
+     text-decoration: none;
+     color: #111111;
+ }
+ 
+ a:visited{
+     font-size: 20px;
+     text-decoration: none;
+     color: #E40C00
+ }
+ 
+ a:hover{
+     font-size: 25px;
+     text-decoration: underline;
+     font-weight: bold;
+ }
+ 
+ label{
+     display: inline-block;
+     float: left;
+     clear: left;
+     width: 250px;
+     text-align: left;
+ }
+ 
+ input{
+     display: inline-block;
+     float: left;
+ } 
+
+header{
+    font: 30px/60px "Helvetica Neue", Arial, sans-serif;
+    background-color: #1C345A;
+    text-align: left;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#divBody{
+    background-color: #F6F7F9;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    margin-top: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#SolairePost{
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#LautrecPost{
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#SiegmeyerPost{
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+

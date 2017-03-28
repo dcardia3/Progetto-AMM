@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+         <title>NERDBOOK: make the difference</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Davide Cardia"/>
+        <meta name="keywords" content="connettiti con chi vuoi e dove vuoi"/>
+        
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        
+    </head>
+    
+    <body>
+        
+        <!--header contenente in titolo della pagina-->
+        <header>
+            <div id="title">
+                <h1>NERDBOOK</h1>
+            </div>
+        </header>
+        
+        <!--Contenuti della pagina-->
+        <div id="divBody">
+        
+            <!--Form per la richiesta delle informazioni e per la registrazione dell'utente-->
+            <form action="demo_form.asp" method="get">
+            <label for="textType">Nome Utente</label>
+            <input type="text" name="textType"
+                   id="textType"/>
+            
+            <br>
+            
+            <label for="textType">Cognome Utente</label>
+            <input type="text" name="testo"
+                   id="testo"/>
+            
+            <br>
+            
+            <label for="textType">URL immagine profilo</label>
+            <input type="url" name="altrotesto"
+                   id="altrotesto"/>
+            
+            <br>
+            
+            <label for="textType">Presentazione</label>
+            <textarea name="present" id="present">
+            </textarea>
+            
+            <br>
+            
+            <label for="textType">Data di Nascita</label>
+            <input type="date" name="when"
+                   id="when"/>
+            
+            <br>
+            
+            <label for="pswd">Password</label>
+            <input type="password" name="pswd"
+                   id="pswd"/>
+            
+            <br>
+            
+            <label for="pswd">Conferma Password</label>
+            <input type="password" name="pswd1"
+                   id="pswd1"/>
+            
+            <br>
+            
+            <input type="submit" value="Accedi" />
+        </form>   
+             
+            <!--Barra di navigazione tra le pagine del sito-->
+            <nav>
+                <ul>
+                    
+                <li><a href="descrizione.html">Descrizione Nerbook</a></li>
+                <li><a href="login.html">Login Utente</a></li>
+                    
+                </ul>    
+                
+            </nav>
+        </div>
+    </body>
+</html>
