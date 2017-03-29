@@ -41,19 +41,24 @@ h2{
      font-weight: bold;
  }
  
- label{
-     display: inline-block;
-     float: left;
-     clear: left;
-     width: 250px;
-     text-align: left;
+ #infoP{
+     background-color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+ }
+
+ input{
+     outline: none;
+     border: 1px solid #FF0000;
  }
  
- input{
-     display: inline-block;
-     float: left;
- } 
-
+ #textArea{
+     outline: none;
+     border: 1px solid #FF0000;
+ }
+ 
 header{
     font: 30px/60px "Helvetica Neue", Arial, sans-serif;
     background-color: #1C345A;
@@ -70,7 +75,7 @@ header{
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-#SolairePost{
+.post{
     background-color: #ffffff;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -78,20 +83,22 @@ header{
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
-#LautrecPost{
-    background-color: #ffffff;
-    margin-bottom: 5px;
+.post .imgProfilo{
     margin-top: 5px;
-    padding-left: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    width: 40px;
+    height: 40px;
+    
 }
 
-#SiegmeyerPost{
-    background-color: #ffffff;
-    margin-bottom: 5px;
+.post .nomeProfilo{
+    display: inline-block;
     margin-top: 5px;
-    padding-left: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    vertical-align: top;
+    color: #333333;
+    font: 25px/40px "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
 }
+
+
 
 
