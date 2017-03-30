@@ -15,16 +15,17 @@
         
         <!--header contenente in titolo della pagina-->
         <header>
-            <div id="title">
+            <div id="titleLogin">
                 <h1> NERDBOOK </h1>
             </div>
         </header>
         
         <!--Contenuti della pagina-->
-        <div id="divBody">
-        
+        <div id="divLogin" class="divLogin">
+            <div id="formLogin">
             <!--Form per la richiesta dell'autenticazione-->
-            <form action="servlet.java" method="post">
+             
+                <form action="servlet.java" method="post">
                 <label for="TextType">Username</label>
                 <input type="text" name="TextType"
                        id="TextType" />
@@ -34,8 +35,8 @@
                        id="pswd" />
                 
                 <button type="submit">ACCEDI </button>            
-            </form>
-            
+                </form>
+            </div>
              <!--Barra di navigazione tra le pagine del sito-->
             <nav>
             <ol>

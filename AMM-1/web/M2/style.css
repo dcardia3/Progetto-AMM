@@ -71,7 +71,7 @@ header{
     background-color: #F6F7F9;
     margin-bottom: 5px;
     padding-left: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
@@ -99,6 +99,51 @@ header{
     font-weight: bold;
 }
 
+#titleLogin{
+    text-align: center;
+}
 
+#divLogin{
+    background-color: #F6F7F9;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
 
+.divLogin{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin-top:-100px;
+    margin-left:-200px;
+    width:400px;
+    height:auto;
+}
+
+#formLogin{
+    
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+#formLogin label:after{
+    content: '\A';
+    white-space: pre;
+}
+
+#formLogin input{
+    height: 20px;                                                                         
+    width: 98.5%;
+}
+
+#formLogin button{
+    width: 100%;
+}
 
