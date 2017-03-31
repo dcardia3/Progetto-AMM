@@ -49,19 +49,19 @@ h3{
 Definizione proprietà dei link
 */
 
-a:link{                      /*stile visualizzazione link non ancora visitati*/
+a:link{                                     /*stile visualizzazione link non ancora visitati*/
     font-size: 20px;
     text-decoration: none;
     color: #111111;
 }
 
-a:visited{                  /*stile visualizzazione link visitati*/
+a:visited{                                  /*stile visualizzazione link visitati*/
     font-size: 20px;
     text-decoration: none;
     color: #B21E1E
 }
 
-a:hover{                        /*stile visualizzazione link al passaggio del mouse*/
+a:hover{                                    /*stile visualizzazione link al passaggio del mouse*/
     font-size: 25px;
     text-decoration: underline;
     font-weight: bold;
@@ -145,11 +145,11 @@ Definizione regole pagina bacheca.html
 Definizione regole pagina login.html
 */
 
-#titleLogin{                        /*allineamento centrale titolo*/
+#titleLogin{                                /*allineamento centrale titolo*/
     text-align: center;
 }
 
-.divLogin{                          /*definizione regole del divLogin*/
+.divLogin{                                  /*definizione regole del divLogin*/
     position: absolute;
     top: 25%;
     left: 50%;
@@ -159,7 +159,7 @@ Definizione regole pagina login.html
     height: auto;
 }
 
-#formLogin{                         /*definizione del form Login*/
+#formLogin{                                 /*definizione del form Login*/
     background-color: #FFFFFF;
     margin-bottom: 5px;
     margin-top: 5px;
