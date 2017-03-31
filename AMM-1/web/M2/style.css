@@ -2,10 +2,18 @@
 Creazione: 28/03/2017
 */
 
+/*
+Definizione background e font del body
+*/
+
 body{
     background-color: #8899a6;
     font: 20px/25px "Helvetica Neue", Arial, sans-serif;
 }
+
+/*
+Definizione proprietà dei titoli h1
+*/
 
 h1{
     margin-top: 5px;
@@ -15,82 +23,111 @@ h1{
     font-weight: bold;
 }
 
-h2{
-    margin-top: 5px;
-    color: #333333;
-    font: 25px/40px "Helvetica Neue", Arial, sans-serif;
-    font-weight: bold;
-    
- }
- 
- a:link{
-     font-size: 20px;
-     text-decoration: none;
-     color: #111111;
- }
- 
- a:visited{
-     font-size: 20px;
-     text-decoration: none;
-     color: #E40C00
- }
- 
- a:hover{
-     font-size: 25px;
-     text-decoration: underline;
-     font-weight: bold;
- }
- 
- #infoP{
-     background-color: #ffffff;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding-left: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
- }
+/*
+Definizione proprietà dei titoli h2
+*/
 
- input{
-     outline: none;
-     border: 1px solid #FF0000;
- }
- 
- #textArea{
-     outline: none;
-     border: 1px solid #FF0000;
- }
- 
+h2{
+margin-top: 5px;
+color: #333333;
+font: 25px/30px "Helvetica Neue", Arial, sans-serif;
+font-weight: bold;
+}
+
+/*
+Definizione proprietà dei titoli h3
+*/
+
+h3{
+    margin-top: 5px;
+    color: #111111;
+    font: 20px/30px "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
+}
+
+/*
+Definizione proprietà dei link
+*/
+
+a:link{                      /*stile visualizzazione link non ancora visitati*/
+    font-size: 20px;
+    text-decoration: none;
+    color: #111111;
+}
+
+a:visited{                  /*stile visualizzazione link visitati*/
+    font-size: 20px;
+    text-decoration: none;
+    color: #B21E1E
+}
+
+a:hover{                        /*stile visualizzazione link al passaggio del mouse*/
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*
+Definizione stile visualizzazione campi input
+*/
+
+input{
+    outline: none;
+    border: 1px solid #FF0000;
+}
+
+textarea{
+    outline: none;
+    border: 1px solid #FF0000;
+}
+
+/*
+Definizione stile header
+*/
+
 header{
     font: 30px/60px "Helvetica Neue", Arial, sans-serif;
     background-color: #1C345A;
     text-align: left;
     margin-bottom: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    box-shadow: 0 0 20px rgba(0,0,0,.4);
 }
+
+/*
+Definizione stile divBody
+*/
 
 #divBody{
     background-color: #F6F7F9;
+    margin-top: 5px;
     margin-bottom: 5px;
-    padding-left: 5px;
-    margin-top: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,.4);
 }
 
-.post{
-    background-color: #ffffff;
+/*
+Definizione regole pagina bacheca.html
+*/
+
+.post{                                      /* regole per il box di ogni singolo post*/
+    background-color: #FFFFFF;
     margin-bottom: 5px;
     margin-top: 5px;
+    padding-top: 5px;
     padding-left: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    padding-right: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,.4);
 }
 
-.post .imgProfilo{
+.post .imgProfilo{                          /* regole visualizzazione immagine profilo*/
     margin-top: 5px;
     width: 40px;
     height: 40px;
-    
 }
 
-.post .nomeProfilo{
+.post .nomeProfilo{                         /* regole visualizzazione nome profilo*/
     display: inline-block;
     margin-top: 5px;
     vertical-align: top;
@@ -99,51 +136,81 @@ header{
     font-weight: bold;
 }
 
-#titleLogin{
+.post .imgPost{                             /*ridimensionamento della foto del post*/
+    width: 276px;
+    height: 77px;
+}
+
+/*
+Definizione regole pagina login.html
+*/
+
+#titleLogin{                        /*allineamento centrale titolo*/
     text-align: center;
 }
 
-#divLogin{
-    background-color: #F6F7F9;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
-}
-
-.divLogin{
+.divLogin{                          /*definizione regole del divLogin*/
     position: absolute;
     top: 25%;
     left: 50%;
-    margin-top:-100px;
+    margin-top: -100px;
     margin-left:-200px;
-    width:400px;
-    height:auto;
+    width: 400px;
+    height: auto;
 }
 
-#formLogin{
-    
-    background-color: #ffffff;
+#formLogin{                         /*definizione del form Login*/
+    background-color: #FFFFFF;
     margin-bottom: 5px;
     margin-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px rgba(0,0,0,.4);
 }
 
-#formLogin label:after{
+#formLogin label:after{       
     content: '\A';
     white-space: pre;
 }
 
 #formLogin input{
-    height: 20px;                                                                         
+    height: 20px;
     width: 98.5%;
 }
 
 #formLogin button{
     width: 100%;
 }
+
+/*
+Definizione regole pagina profilo.html
+*/
+
+#infoP{
+   background-color: #FFFFFF;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,.4);
+}
+
+#infoP label{
+    float:left;
+    width: 300px;
+}
+
+#infoP input, textarea{
+    width: 180px;
+    margin-bottom: 5px;
+}
+
+#infoP br{
+    clear: left;
+}
+
+#infoP button{
+    width: 100%;
+}
+
 
