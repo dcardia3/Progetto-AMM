@@ -28,10 +28,12 @@ Definizione proprietà dei titoli h2
 */
 
 h2{
-margin-top: 5px;
-color: #333333;
-font: 25px/30px "Helvetica Neue", Arial, sans-serif;
-font-weight: bold;
+    background-color: #F6F7F9;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #333333;
+    font: 25px/30px "Helvetica Neue", Arial, sans-serif;
+    font-weight: bold;
 }
 
 /*
@@ -39,8 +41,10 @@ Definizione proprietà dei titoli h3
 */
 
 h3{
+    background-color: #F6F7F9;
     margin-top: 5px;
-    color: #111111;
+    margin-left: 5px;
+    color: #333333;
     font: 20px/30px "Helvetica Neue", Arial, sans-serif;
     font-weight: bold;
 }
@@ -89,8 +93,12 @@ header{
     font: 30px/60px "Helvetica Neue", Arial, sans-serif;
     background-color: #1C345A;
     text-align: left;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     box-shadow: 0 0 20px rgba(0,0,0,.4);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
 /*
@@ -105,6 +113,7 @@ Definizione stile divBody
     padding-left: 10px;
     padding-right: 10px;
     box-shadow: 0 0 20px rgba(0,0,0,.4);
+    margin-top: 70px;
 }
 
 /*
